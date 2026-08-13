@@ -1,0 +1,22 @@
+{
+  "seed": 20260813,
+  "q1": {
+    "forecast_train_end": 2351,
+    "forecast_validation_start": 2352,
+    "forecast_validation_end": 2375,
+    "forecast_test_start": 2376,
+    "forecast_test_end": 2399
+  },
+  "scheduler": {
+    "training_max_wait_h": 168,
+    "batch_max_wait_h": 48,
+    "candidate_top_k": 6,
+    "wait_weight": 0.08,
+    "latency_weight": 0.08
+  },
+  "q4": {
+    "price_mechanisms": ["flat", "tou", "realtime"],
+    "carbon_cap_ratios": [1.0, 0.9, 0.8],
+    "renewable_scales": [0.8, 1.0, 1.2]
+  }
+}
